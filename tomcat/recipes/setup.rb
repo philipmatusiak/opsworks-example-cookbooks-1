@@ -28,5 +28,5 @@ bash '(re-)start autofs earlier' do
 end
 
 include_recipe 'tomcat::container_config'
-include_recipe 'apache2'
+#include_recipe 'apache2' Commented out PMM 7.25.2022
 include_recipe 'tomcat::apache_tomcat_bind'
